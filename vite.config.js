@@ -8,6 +8,6 @@ import react from "@vitejs/plugin-react";
 // after deploying a Vite app to GitHub Pages — assets get requested from
 // the domain root instead of the repo subpath.
 export default defineConfig({
-  // base: "/finance-tracker/",
+   base: "/FinanceTracker/",
   plugins: [react()],
 });
